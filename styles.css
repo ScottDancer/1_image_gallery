@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  background-color: #E6C599;
+  margin: 0;
+  align-items: stretch;
+  grid-auto-rows: 200px;
+  padding: 10px;
+}
+
+img {
+  border: 2px solid #9ACBE6;
+  max-width: 100%;
+}
