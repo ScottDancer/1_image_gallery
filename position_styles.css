@@ -2,24 +2,31 @@
   background-color: #997c57;
   color: white;
 }
-
+ body {
+   height: 200vh;
+ }
 .parent {
-  padding: .25rem;
+  padding: .5rem;
   background-color: #9ACBE6;
+  position: relative;
 }
 
 .child1 {
-  padding: .25rem;
+  position: sticky;
+ /* top: 0px; */
+ /* left: 0; */
+  top: 10px;
+  padding: .5rem;
   background-color: #487C99;
 }
 
 .child2 {
-  padding: .25rem;
+  padding: .5rem;
   background-color: #FFE6C4 ;
 }
 
 .child3 {
-  padding: .25rem;
+  padding: .5rem;
   background-color: #E6C599;
 
 }
