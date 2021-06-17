@@ -1,0 +1,25 @@
+* {
+  background-color: #997c57;
+  color: white;
+}
+
+.parent {
+  padding: .25rem;
+  background-color: #9ACBE6;
+}
+
+.child1 {
+  padding: .25rem;
+  background-color: #487C99;
+}
+
+.child2 {
+  padding: .25rem;
+  background-color: #FFE6C4 ;
+}
+
+.child3 {
+  padding: .25rem;
+  background-color: #E6C599;
+
+}

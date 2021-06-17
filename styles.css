@@ -7,13 +7,21 @@
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 10px;
   background-color: #E6C599;
-  margin: 0;
   align-items: stretch;
   grid-auto-rows: 200px;
+  grid-auto-flow: dense;
+  margin: 0;
   padding: 10px;
 }
 
 img {
-  border: 2px solid #9ACBE6;
+  border: 2px solid #997C57;
   max-width: 100%;
+}
+.wide {
+  grid-column: span 2;
+}
+
+.tall {
+  grid-row: span 2;
 }
